@@ -1475,8 +1475,8 @@ public class SqlLineArgsTest {
       final String defaultTimeFormat = "!set timeFormat default\n";
       final String legacyTimeFormat = "!set timeFormat ''\n";
       final String okDateFormat = "!set dateFormat YYYY-MM-dd\n";
-      final String defaultDateFormat = "!set dateFormat ''\n";
-      final String legacyDateFormat = "!set dateFormat default\n";
+      final String defaultDateFormat = "!set dateFormat default\n";
+      final String legacyDateFormat = "!set dateFormat ''\n";
       final String okTimestampFormat = "!set timestampFormat default\n";
       final String defaultTimestampFormat = "!set timestampFormat default\n";
       final String legacyTimestampFormat = "!set timestampFormat ''\n";
